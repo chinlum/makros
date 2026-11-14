@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { createClient } from '@/lib/supabase/client';
 import { currentUserId } from '@/lib/identity';
-import { bmr, baselineOut, calcAge } from '@/lib/energy';
+import { bmr, baselineOut } from '@/lib/energy';
 
 const supabase = createClient();
 const inputCls = 'w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-base focus:border-gray-900 focus:outline-none';
